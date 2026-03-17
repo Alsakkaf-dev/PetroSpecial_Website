@@ -20,6 +20,7 @@
             background: #fff;
             margin-bottom: 20px;
             transition: 0.3s;
+            cursor: pointer;
         }
 
         .product-card:hover {
@@ -164,7 +165,7 @@
                                     <h4 class="sub-category-title">زيوت سيارات البنزين</h4>
                                     <div class="row">
                                         <div class="col-md-3 col-6">
-                                            <div class="product-card">
+                                            <div class="product-card" data-bs-toggle="modal" data-bs-target="#modal-10w30">
                                                 <div class="product-img-box"><img src="assets/img/products/10w30-1.webp"
                                                         alt="10W30"></div>
                                                 <div class="product-info">
@@ -174,7 +175,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-3 col-6">
-                                            <div class="product-card">
+                                            <div class="product-card" data-bs-toggle="modal" data-bs-target="#modal-20w50">
                                                 <div class="product-img-box"><img src="assets/img/products/20w50-1.webp"
                                                         alt="20W50">
                                                 </div>
@@ -185,7 +186,7 @@
                                             </div>
                                         </div>
                                         <div class="col-md-3 col-6">
-                                            <div class="product-card">
+                                            <div class="product-card" data-bs-toggle="modal" data-bs-target="#modal-5w30">
                                                 <div class="product-img-box"><img src="assets/img/products/5w30-1.webp"
                                                         alt="5W30"></div>
                                                 <div class="product-info">
@@ -513,6 +514,219 @@
             </div>
         </div>
     </section>
+
+    <!-- Modals for Products -->
+    <!-- Modal 10W-30 -->
+    <div class="modal fade" id="modal-10w30" tabindex="-1" aria-labelledby="modal-10w30-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modal-10w30-label">زيت محرك SUPER SPECIAL 10W-30</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start" dir="rtl">
+                    <p class="text-center fw-bold text-warning">"ليس مجرد زيت، بل هندسة سائلة." | زيت أساس نقي 100% | API SL</p>
+                    <hr>
+                    <h5 class="text-primary fw-bold">نظرة عامة على المنتج</h5>
+                    <p>عزّز أداء سيارتك إلى أقصى حد مع زيت Super Special 10W-30، وهو زيت محركات متطور مصمم خصيصًا لسيارات البنزين. ووفاءً لشعارنا — "ليس مجرد زيت، بل هندسة سائلة" — تم تصنيع هذا الزيت عالي الجودة من زيت أساس نقي 100% مصدره أرامكو السعودية، وممزوج وفق مواصفات أمريكية صارمة.</p>
+                    <p>تم تصميمه خصيصًا لمواجهة الظروف القاسية للمناخ الصحراوي ودرجات الحرارة التشغيلية العالية، حيث يوفر Super Special ثباتًا استثنائيًا في اللزوجة. وهذا يضمن حماية مستمرة لأجزاء المحرك الأساسية، مع مقاومة الرواسب والتآكل والحرارة الشديدة، بالإضافة إلى عمر استخدام موثوق يصل إلى 5,000 كيلومتر لكل تغيير زيت.</p>
+                    
+                    <h5 class="text-primary fw-bold mt-4">المواصفات السريعة</h5>
+                    <ul>
+                        <li><strong>العلامة التجارية:</strong> SPECIAL (بترو سبيشل لزيوت التشحيم)</li>
+                        <li><strong>خط المنتج:</strong> SUPER SPECIAL</li>
+                        <li><strong>نوع المنتج:</strong> زيت أساس نقي 100%</li>
+                        <li><strong>درجة اللزوجة:</strong> SAE 10W-30</li>
+                        <li><strong>معيار الأداء:</strong> API SL</li>
+                        <li><strong>توافق المحرك:</strong> جميع سيارات البنزين</li>
+                        <li><strong>المسافة الموصى بها:</strong> حتى 5,000 كم</li>
+                        <li><strong>الحجم:</strong> 1 لتر</li>
+                        <li><strong>مدة الصلاحية:</strong> 5 سنوات</li>
+                        <li><strong>بلد المنشأ:</strong> صنع في المملكة العربية السعودية (علامة SAUDI MADE)</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الفوائد والمميزات الأساسية</h5>
+                    <p>تم تطوير زيت Super Special 10W-30 ليكون درعًا سائلاً لمحركك، حيث توفر تركيبته المتقدمة المزايا التالية:</p>
+                    <ul>
+                        <li><strong>حماية قصوى من الحرارة:</strong> مقاومة عالية للتحلل الحراري مع الحفاظ على اللزوجة في درجات الحرارة المرتفعة والمناخ الصحراوي.</li>
+                        <li><strong>إطالة عمر المحرك:</strong> حماية مستمرة تقلل الإجهاد الداخلي وتطيل العمر التشغيلي للمحرك.</li>
+                        <li><strong>مقاومة التآكل والصدأ:</strong> طبقة حماية فعالة تقلل الاحتكاك بين المعادن وتمنع التآكل.</li>
+                        <li><strong>منع ترسبات المكابس:</strong> يحتوي على منظفات ومشتتات فعالة تمنع تراكم الرواسب والحمأة.</li>
+                        <li><strong>تحسين استهلاك الوقود:</strong> يقلل الاحتكاك الداخلي مما يساهم في كفاءة أعلى واستهلاك أقل للوقود.</li>
+                        <li><strong>مقاومة الرغوة:</strong> يحافظ على ضغط الزيت ويضمن تشحيمًا متوازنًا لجميع الأجزاء المتحركة.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الجودة والثقة والشهادات</h5>
+                    <p>نحن نضمن لك الجودة التي تعتمد عليها:</p>
+                    <ul>
+                        <li><strong>مطابق لمعايير API وSAE:</strong> مرخص ومصنّع وفق أعلى المواصفات العالمية.</li>
+                        <li><strong>حاصل على شهادة ISO 9001:</strong> يتم إنتاجه ضمن نظام إدارة جودة صارم.</li>
+                        <li><strong>ضمان رضا 100%:</strong> أداء مضمون طوال فترة الاستخدام.</li>
+                        <li><strong>بمعايير أرامكو السعودية:</strong> مصنوع باستخدام زيوت عالية الجودة وفق معايير أمريكية متقدمة.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">معلومات الشركة المصنعة</h5>
+                    <ul>
+                        <li><strong>منتج خصيصًا لصالح:</strong> بترو سبيشل لزيوت التشحيم</li>
+                        <li><strong>رقم السجل التجاري:</strong> 4030399323</li>
+                        <li><strong>بلد المنشأ:</strong> المملكة العربية السعودية</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">إرشادات الصحة والسلامة والبيئة (HSE)</h5>
+                    <p>لضمان سلامتك وحماية البيئة، يرجى اتباع التعليمات التالية:</p>
+                    <ul>
+                        <li><strong>الاستخدام الآمن:</strong> تجنب ملامسة الزيت المستعمل للجلد لفترات طويلة. اغسل الجلد جيدًا بالماء والصابون بعد الاستخدام.</li>
+                        <li><strong>تحذيرات العبوة:</strong> لا تستخدم العبوات الفارغة لتخزين الوقود أو المذيبات، حيث قد تسبب البقايا خطر اشتعال.</li>
+                        <li><strong>المسؤولية البيئية:</strong> حافظ على البيئة من التلوث عبر التخلص من الزيوت والعبوات في مراكز إعادة التدوير أو التخلص المعتمدة.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 20W-50 -->
+    <div class="modal fade" id="modal-20w50" tabindex="-1" aria-labelledby="modal-20w50-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modal-20w50-label">زيت محرك SUPER SPECIAL 20W-50</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start" dir="rtl">
+                    <p class="text-center fw-bold text-warning">"ليس مجرد زيت، بل هندسة سائلة" | زيت أساس نقي 100% | API SL</p>
+                    <hr>
+                    <h5 class="text-primary fw-bold">نظرة عامة على المنتج</h5>
+                    <p>امنح محركك درع الحماية الحرارية القصوى مع زيت Super Special 20W-50، وهو زيت محركات عالي الجودة مصمم خصيصًا لسيارات البنزين التي تعمل في البيئات القاسية. ووفاءً لوعدنا — "ليس مجرد زيت، بل هندسة سائلة" — يتم تصنيع هذا المنتج من زيت أساس نقي 100% مصدره أرامكو السعودية، وفق أحدث المواصفات الأمريكية.</p>
+                    <p>بفضل تركيبته عالية اللزوجة (20W-50)، يوفر هذا الزيت حماية قصوى ضد درجات الحرارة المرتفعة جدًا والظروف الصحراوية القاسية. حيث يغطي الأجزاء الحيوية للمحرك بطبقة حماية سميكة ومتينة تقاوم التحلل الحراري، مما يضمن أداءً مثاليًا للمحرك، وتقليل التآكل، وحماية موثوقة تصل إلى 5,000 كيلومتر لكل تغيير زيت.</p>
+
+                    <h5 class="text-primary fw-bold mt-4">المواصفات السريعة</h5>
+                    <ul>
+                        <li><strong>العلامة التجارية:</strong> SPECIAL (بترو سبيشل لزيوت التشحيم)</li>
+                        <li><strong>خط المنتج:</strong> SUPER SPECIAL</li>
+                        <li><strong>نوع المنتج:</strong> زيت أساس نقي 100%</li>
+                        <li><strong>درجة اللزوجة:</strong> SAE 20W-50</li>
+                        <li><strong>معيار الأداء:</strong> API SL</li>
+                        <li><strong>توافق المحرك:</strong> جميع سيارات البنزين</li>
+                        <li><strong>المسافة الموصى بها:</strong> حتى 5,000 كم</li>
+                        <li><strong>الحجم:</strong> 1 لتر</li>
+                        <li><strong>مدة الصلاحية:</strong> 5 سنوات (من تاريخ الإنتاج)</li>
+                        <li><strong>بلد المنشأ:</strong> صنع في المملكة العربية السعودية (علامة SAUDI MADE)</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الفوائد والمميزات الأساسية</h5>
+                    <p>عندما تكون الحرارة شديدة، تحتاج إلى زيت قوي. يوفر زيت Super Special 20W-50 حماية استثنائية ومستمرة ضد الرواسب والتآكل والظروف الحارة القاسية:</p>
+                    <ul>
+                        <li><strong>مقاومة فائقة لدرجات الحرارة العالية:</strong> لزوجة 20W-50 الثقيلة تمنع ترقق الزيت عند درجات الحرارة المرتفعة، مما يحافظ على الحماية.</li>
+                        <li><strong>إطالة عمر المحرك إلى أقصى حد:</strong> يقلل التآكل اليومي بشكل كبير من خلال توفير حماية مستمرة للأجزاء سريعة الحركة.</li>
+                        <li><strong>حماية ممتازة ضد التآكل والصدأ:</strong> يشكّل طبقة تشحيم قوية تحمي الأسطح المعدنية من الاحتكاك والتآكل الكيميائي.</li>
+                        <li><strong>مقاومة الأكسدة:</strong> يحتوي على إضافات خاصة تمنع تدهور الزيت وتحافظ على لزوجته العالية مع مرور الوقت.</li>
+                        <li><strong>منع تكوّن الرواسب:</strong> مواد تنظيف متقدمة تحافظ على نظافة المكابس وتمنع تراكم الشوائب.</li>
+                        <li><strong>مقاومة تكوّن الرغوة:</strong> يمنع تكوّن الفقاعات الهوائية ويحافظ على ضغط الزيت واستمرارية التشحيم.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الجودة والثقة والشهادات</h5>
+                    <p>قد بثقة وأنت مطمئن أن محركك محمي بأعلى المعايير:</p>
+                    <ul>
+                        <li><strong>مرخّص من API وSAE:</strong> مطابق لمواصفات معهد البترول الأمريكي وجمعية مهندسي السيارات.</li>
+                        <li><strong>حاصل على شهادة ISO 9001:</strong> يُنتج وفق نظام إدارة جودة عالمي صارم.</li>
+                        <li><strong>ضمان رضا 100%:</strong> أداء مضمون بالكامل.</li>
+                        <li><strong>زيوت أساس عالية الجودة:</strong> يعتمد على زيوت أرامكو السعودية وفق أعلى المعايير الأمريكية.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">معلومات الشركة المصنعة</h5>
+                    <ul>
+                        <li><strong>منتج خصيصًا لصالح:</strong> بترو سبيشل لزيوت التشحيم</li>
+                        <li><strong>رقم السجل التجاري:</strong> 4030399323</li>
+                        <li><strong>بلد المنشأ:</strong> المملكة العربية السعودية</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">إرشادات الصحة والسلامة والبيئة (HSE)</h5>
+                    <p>نولي أهمية كبيرة لسلامتك وحماية البيئة، يرجى الالتزام بما يلي:</p>
+                    <ul>
+                        <li><strong>السلامة الشخصية:</strong> تجنب ملامسة الزيت المستعمل للجلد لفترات طويلة. اغسل المناطق المعرضة جيدًا بالماء والصابون بعد الاستخدام.</li>
+                        <li><strong>تحذيرات العبوة:</strong> لا تقم بإعادة تعبئة عبوات الزيت الفارغة بالوقود أو المذيبات، فقد يؤدي ذلك إلى خطر اشتعال.</li>
+                        <li><strong>المسؤولية البيئية:</strong> ساهم في حماية البيئة من التلوث عبر التخلص من الزيوت والعبوات بطريقة صحيحة في مراكز إعادة التدوير المعتمدة.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 5W-30 -->
+    <div class="modal fade" id="modal-5w30" tabindex="-1" aria-labelledby="modal-5w30-label" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header bg-dark text-white">
+                    <h5 class="modal-title" id="modal-5w30-label">زيت محرك Synthetic Special 5W-30</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-start" dir="rtl">
+                    <p class="text-center fw-bold text-warning">زيت صناعي نقي 100% (Virgin Synthetic) | معيار API SN | مُصمم للمناخات ذات درجات الحرارة العالية</p>
+                    <hr>
+                    <h5 class="text-primary fw-bold">نظرة عامة على المنتج</h5>
+                    <p>مرحبًا بك في الجيل الجديد من حماية المحركات. يُعد زيت Synthetic Special 5W-30 زيت محركات صناعي فاخر بنسبة 100%، تم تطويره بعناية ليتناسب مع جميع أنواع سيارات البنزين الحديثة. يُصنّع هذا المنتج بفخر في المملكة العربية السعودية، باستخدام زيوت أساس عالية الجودة من أرامكو السعودية وفقًا للمواصفات الأمريكية.</p>
+                    <p>تم تصميم هذا الزيت خصيصًا لتحمل أقسى الظروف، حيث يوفر ثباتًا عاليًا في اللزوجة، مما يضمن حماية مستمرة لأجزاء المحرك الحيوية حتى في درجات الحرارة المرتفعة والظروف الصحراوية القاسية. سواء كنت تقود في زحام المدينة أو لمسافات طويلة، فإن Synthetic Special يضمن رضاك بنسبة 100% ويُطيل عمر المحرك حتى 10,000 كيلومتر بين كل تغيير وآخر.</p>
+
+                    <h5 class="text-primary fw-bold mt-4">المواصفات السريعة</h5>
+                    <ul>
+                        <li><strong>العلامة التجارية:</strong> SPECIAL (بترو سبيشل لزيوت التشحيم)</li>
+                        <li><strong>نوع المنتج:</strong> زيت محرك صناعي نقي 100%</li>
+                        <li><strong>درجة اللزوجة:</strong> SAE 5W-30</li>
+                        <li><strong>معيار الأداء:</strong> API SN</li>
+                        <li><strong>توافق المحرك:</strong> جميع سيارات البنزين</li>
+                        <li><strong>المسافة الموصى بها:</strong> حتى 10,000 كم</li>
+                        <li><strong>الحجم:</strong> 1 لتر</li>
+                        <li><strong>مدة الصلاحية:</strong> 5 سنوات</li>
+                        <li><strong>بلد المنشأ:</strong> المملكة العربية السعودية</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الفوائد والمميزات الأساسية</h5>
+                    <p>تم تطوير تركيبتنا الفريدة لتحمل درجات الحرارة العالية مع الحفاظ على أداء المحرك بشكل أكثر سلاسة ونظافة وكفاءة:</p>
+                    <ul>
+                        <li><strong>مقاومة عالية للحرارة:</strong> يحافظ على اللزوجة المثالية ويقاوم التحلل الحراري في البيئات الحارة والصحراوية.</li>
+                        <li><strong>إطالة عمر المحرك:</strong> يوفر حماية مستمرة ضد الاحتكاك ويقلل من التآكل على المدى الطويل.</li>
+                        <li><strong>خصائص ممتازة لمقاومة التآكل:</strong> يشكّل طبقة تشحيم قوية توفر حماية مستمرة للأجزاء الميكانيكية.</li>
+                        <li><strong>منع الرواسب والشوائب:</strong> يحتوي على منظفات كيميائية متقدمة تمنع تكوّن الرواسب داخل المحرك.</li>
+                        <li><strong>توفير في استهلاك الوقود:</strong> يقلل الاحتكاك الداخلي مما يؤدي إلى استهلاك أقل للوقود.</li>
+                        <li><strong>مقاومة تكوّن الرغوة:</strong> يحافظ على ضغط الزيت ويمنع تكوّن الفقاعات الهوائية.</li>
+                        <li><strong>مقاومة الأكسدة:</strong> يحافظ على جودة الزيت طوال فترة استخدامه حتى 10,000 كم.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">الجودة والثقة والشهادات</h5>
+                    <p>في شركة بترو سبيشل لزيوت التشحيم، الجودة هي أولويتنا:</p>
+                    <ul>
+                        <li><strong>حاصل على شهادة ISO 9001:</strong> يتم إنتاجه وفق نظام إدارة جودة معتمد عالميًا.</li>
+                        <li><strong>مرخّص صناعيًا:</strong> مطابق لمعايير API (معهد البترول الأمريكي) وSAE (جمعية مهندسي السيارات).</li>
+                        <li><strong>ضمان رضا 100%:</strong> نضمن أداء المنتج بشكل كامل.</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">معلومات الشركة المصنعة</h5>
+                    <ul>
+                        <li><strong>منتج خصيصًا لصالح:</strong> بترو سبيشل لزيوت التشحيم</li>
+                        <li><strong>رقم السجل التجاري:</strong> 4030399323</li>
+                        <li><strong>بلد المنشأ:</strong> صنع في المملكة العربية السعودية</li>
+                    </ul>
+
+                    <h5 class="text-primary fw-bold mt-4">إرشادات الصحة والسلامة والبيئة (HSE)</h5>
+                    <p>نحرص على سلامتك وحماية البيئة، يرجى اتباع الإرشادات التالية:</p>
+                    <ul>
+                        <li><strong>احتياطات الاستخدام:</strong> تجنب ملامسة الزيت المستعمل للجلد لفترات طويلة. اغسل يديك جيدًا بالماء والصابون بعد الاستخدام.</li>
+                        <li><strong>سلامة العبوة:</strong> لا تستخدم العبوات الفارغة لتخزين الوقود أو المذيبات، لأن البقايا قد تسبب خطر اشتعال.</li>
+                        <li><strong>حماية البيئة:</strong> تخلص من العبوات والزيوت المستعملة بطريقة آمنة في مراكز التجميع المخصصة. لا تقم بسكب الزيت في المصارف أو التربة أو المياه.</li>
+                    </ul>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <footer class="footer py-4 bg-dark text-white">
         <div class="container text-center">
